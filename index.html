@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icons8-user-100.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Arlen Developer</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Arlen</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#inicio" onclick="seleccion()">HOME</a>
+            </li>
+            <li>
+              <a href="#sobremi" onclick="seleccion()"> ABOUT ME</a>
+            </li>
+            <li>
+              <a href="#skills" onclick="seleccion()">SKILLS</a>
+            </li>
+            <li>
+              <a href="#curriculum" onclick="seleccion()">RESUME</a>
+            </li>
+            <li>
+              <a href="#portfolio" onclick="seleccion()">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="#contacto" onclick="seleccion()">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION DEL INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/img_profile.jpeg" alt="" />
+        </div>
+        <h1>Arlen</h1>
+        <h2>Enginer Software - Expert UI/UX</h2>
+        <div class="redes">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-skype"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>About me</h2>
+        <p>
+          <span>Hi, I am Arlen</span> Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Illo sint suscipit iusto eaque quibusdam, nihil
+          error fugiat dolorum iste eius eum, ab voluptatibus, ut alias vitae.
+          Repudiandae et laboriosam dicta.
+        </p>
+        <div class="fila">
+          <div class="col">
+            <h3>Personal information</h3>
+            <ul>
+              <li>
+                <strong>Birthday</strong>
+                ---------------------
+              </li>
+              <li>
+                <strong>Telephone</strong>
+                ---------------------
+              </li>
+              <li>
+                <strong>Email</strong>
+                ---------------------
+              </li>
+              <li>
+                <strong>Website</strong>
+                -------------------------
+              </li>
+              <li>
+                <strong>Adress</strong>
+                -------------------------
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Games</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>Music</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Games again</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-apple"></i>
+                <span>Developing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          Donwload <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- Skill -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML y CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Adobe Photoshop</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>PHP</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>MYSQL</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>72%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Languaje Skills</h3>
+            <div class="skill">
+              <span>Engliss</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Spanish</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>100%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Polish</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION DE CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Bachillerato en Humanidades</h4>
+              <span class="casa">Santisima Trinidad High School</span>
+              <span class="fecha">2003 - 2015</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                id delectus voluptas eaque, sed cum dolorem, repellat sapiente
+                quaerat consequuntur enim? Unde odio, voluptate amet non nihil
+                eligendi. Placeat, deleniti.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Informatica</h4>
+              <span class="casa">INCOS</span>
+              <span class="fecha">2018 - 2021</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                id delectus voluptas eaque, sed cum dolorem, repellat sapiente
+                quaerat consequuntur enim? Unde odio, voluptate amet non nihil
+                eligendi. Placeat, deleniti.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>ESL</h4>
+              <span class="casa">Columbia College</span>
+              <span class="fecha">2021 - 2022</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                id delectus voluptas eaque, sed cum dolorem, repellat sapiente
+                quaerat consequuntur enim? Unde odio, voluptate amet non nihil
+                eligendi. Placeat, deleniti.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col derecha">
+            <h3>Experiencia Laboral</h3>
+            <div class="item der">
+              <h4>Trabajo 1</h4>
+              <span class="casa"> Nombre de compañia</span>
+              <span class="fecha">2000 - 2000</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero a
+                ab perferendis ratione cum pariatur est eaque accusantium,
+                tenetur eum corrupti libero sunt ex atque delectus
+                necessitatibus fugiat eveniet molestiae.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Trabajo 2</h4>
+              <span class="casa"> Nombre de compañia</span>
+              <span class="fecha">2000 - 2000</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero a
+                ab perferendis ratione cum pariatur est eaque accusantium,
+                tenetur eum corrupti libero sunt ex atque delectus
+                necessitatibus fugiat eveniet molestiae.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Trabajo 3</h4>
+              <span class="casa"> Nombre de compañia</span>
+              <span class="fecha">2000 - 2000</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero a
+                ab perferendis ratione cum pariatur est eaque accusantium,
+                tenetur eum corrupti libero sunt ex atque delectus
+                necessitatibus fugiat eveniet molestiae.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/Page 1.png" alt="" />
+            <div class="overlay">
+              <h3>OSBOL</h3>
+              <p>Accesorios</p>
+              <a href="web/pages/web_asesoria/index.html">View project</a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Page 2.png" alt="" />
+            <div class="overlay">
+              <h3>Web Designer</h3>
+              <p>Pagina web</p>
+              <a href="web/pages/web_travel/index.html">View project</a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Page 3.jpg" alt="" />
+            <div class="overlay">
+              <h3>Portafolio white</h3>
+              <p>Design Web</p>
+              <a href="web/pages/portafolio_2/index.html">View project</a>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Page 1 (2).png" alt="" />
+            <div class="overlay">
+              <h3>Ejemplo</h3>
+              <p>Ejemplo descripcion</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Page 2(2).png" alt="" />
+            <div class="overlay">
+              <h3>Ejemplo</h3>
+              <p>Ejemplo descripcion</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Page 3 (2).png" alt="" />
+            <div class="overlay">
+              <h3>Ejemplo</h3>
+              <p>Ejemplo descripcion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION DEL CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACT</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <form method="POST">
+              <input type="text" placeholder="Your Name" required />
+              <input type="number" placeholder="Your Phone number" required />
+              <input type="email" placeholder="Email" required />
+              <input type="text" placeholder="Subject" required />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button>
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+              </button>
+            </form>
+          </div>
+          <!-- Map -->
+          <div class="col">
+            <img src="img/Background.jpg" alt="" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  1260 E Main Street Bridgeport CT 06608
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Telephone: +1 (475)-320-9300
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: crisvelars1997@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+      <div class="redes">
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
